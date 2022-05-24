@@ -768,6 +768,11 @@
   "resolved" "https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz"
   "version" "1.0.7"
 
+"phosphor-react@^1.4.1":
+  "integrity" "sha512-gO5j7U0xZrdglTAYDYPACU4xDOFBTJmptrrB/GeR+tHhCZF3nUMyGmV/0hnloKjuTrOmpSFlbfOY78H39rgjUQ=="
+  "resolved" "https://registry.npmjs.org/phosphor-react/-/phosphor-react-1.4.1.tgz"
+  "version" "1.4.1"
+
 "picocolors@^1.0.0":
   "integrity" "sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ=="
   "resolved" "https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz"
@@ -845,7 +850,7 @@
   "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.13.0.tgz"
   "version" "0.13.0"
 
-"react@^16 || ^17 || ^18", "react@^18.0.0", "react@^18.1.0":
+"react@^16 || ^17 || ^18", "react@^18.0.0", "react@^18.1.0", "react@>=16":
   "integrity" "sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.1.0.tgz"
   "version" "18.1.0"
