@@ -14,7 +14,7 @@ describe("Submit feedback", () => {
       submitFeedback.execute({
         type: "BUG",
         comment: "example",
-        screenshot: "data:image/png:base64asdasdasd"
+        screenshot: "data:image/png;base64asdasdasd"
       })
     ).resolves.not.toThrow();
 
@@ -27,7 +27,7 @@ describe("Submit feedback", () => {
       submitFeedback.execute({
         type: "",
         comment: "example",
-        screenshot: "data:image/png:base64asdasdasd"
+        screenshot: "data:image/png;base64asdasdasd"
       })
     ).rejects.toThrow();
   });
@@ -37,7 +37,7 @@ describe("Submit feedback", () => {
       submitFeedback.execute({
         type: "BUG",
         comment: "",
-        screenshot: "data:image/png:base64asdasdasd"
+        screenshot: "data:image/png;base64asdasdasd"
       })
     ).rejects.toThrow();
   });
